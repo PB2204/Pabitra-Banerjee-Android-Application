@@ -1,0 +1,58 @@
+name: my_portfolio
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  font_awesome_flutter: ^10.1.0
+  url_launcher: ^6.0.20
+  animations: ^2.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.13.1"
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "images/icon.png"
+  adaptive_icon_background: "#448AFF"
+  adaptive_icon_foreground: "images/new-icon.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  web:
+    generate: true
+    image_path: "images/icon.png"
+    background_color: "#hexcode"
+    theme_color: "#hexcode"
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - images/hero.jpg
+    - images/icon.png
+    - images/dev_portfolio.jpg
+    - images/mac_terminal_portfolio.jpg
+    - images/book_finder_app.jpg
+    - images/clash_of_space.jpg
+    - images/mb_health_bot.png
+    - images/beyond_bits_and_bytes.jpg
+    - images/novice_to_ninja.jpg
+    - images/decoding_ai.jpg
+    - images/python_guide.jpg
+    - images/marvels_of_cosmos.jpg
+    - images/loves_victory.jpg
+    - images/bits_and_bytes.jpg
+    - images/dsa_cpp.png
+    - images/decoding_ai.png
+    - images/python3_the_essential_guide.png
+    - images/marvels_of_the_cosmos.png
+    - images/lovesvictory.jpg
